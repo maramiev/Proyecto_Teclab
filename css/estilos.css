@@ -19,7 +19,7 @@ body {
 }
 header{
 	height: 100vh; 
-	background-image: url(../Img/mano2.png);
+	background-image: url(../img/mano2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
