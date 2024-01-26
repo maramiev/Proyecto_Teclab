@@ -69,6 +69,7 @@ header{
 	font-size: 60px;
 	margin-bottom: 15 px;
 	text-align: center;
+	text-wrap: balance;
 }
 .copy{
 	font-weight: 300;
@@ -178,18 +179,17 @@ footer{
 	font-weight: 500;
 }
 .social-media{
-	width: 50px;
-	display: flex;
-	justify-content: flex-end;
+	gap: 15px;
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
 }
 .social-media-icon{
 	display: inline-block;
-	margin-left: 20px;
-	width: 60px;
-	height: 60px;
-	border: 1px solid #fff;
-	text-align: center;
-	color: #fff
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
 }
 .social-media-icon:hover{
 	background: #fff;
@@ -197,7 +197,8 @@ footer{
 }
 .social-media-icon i{
 	font-size: 30px;
-	line-height: 60px;
+    padding: 0;
+    margin: 0;
 }
 .line{
 	width: 90%;
